@@ -21,10 +21,15 @@ public class menu extends AppCompatActivity {
         this.finish();
         System.exit(0);
     }
-
+    public void desafioT (View v){
+        Intent desafio1 = new Intent(getBaseContext(), desafio.class);
+        desafio1.putExtra("token", token);
+        startActivity(desafio1);
+    }
     public void revisarSensores(View v){
         Intent red_sensores = new Intent(getBaseContext(), RedSensores.class);
         red_sensores.putExtra("token", token);
         startActivity(red_sensores);
     }
+
 }

@@ -11,6 +11,8 @@
         android:theme="@style/Theme.AMST5">
         <activity android:name=".RedSensores"></activity>
         <activity android:name=".menu" />
+        <activity android:name=".desafio" />
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
